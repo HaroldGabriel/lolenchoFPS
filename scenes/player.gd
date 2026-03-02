@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-var speedPlayer = 350.00
+var speedPlayer = 250.00
 
 func _physics_process(delta: float) -> void:
 	var inputDirection = Input.get_vector("Left","Rigth","Up","Down")
